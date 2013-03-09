@@ -1,0 +1,183 @@
+body {
+	background: url("../img/bg.png");
+	font-family: Arial;
+}
+
+#login_outer_block {
+	width: 406px;
+	border: 1px solid #f5f5f6;
+	background: #ECEDEE;
+	padding: 10px 3px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 0px 0px 7px #595959;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -203px;
+	margin-left: -203px;
+}
+
+	.login_inner_block {
+		margin: 0 auto;
+		width: 384px;
+		border: 1px solid #999999;
+		-moz-border-radius: 1px;
+		border-radius: 1px;
+	}
+	
+		.login_inner_name {
+			background: #1680D5;
+			border-top: 1px solid #9bd2ee;
+			text-align: center;
+			padding: 5px;
+		}
+		
+			.login_inner_name h2 {
+				color: #fff;
+				text-shadow: black 0.1em 0.1em 0.2em;
+			}
+		
+		.login_inner_forms {
+			background: #fff;
+			padding: 15px;
+		}
+		
+			.login_inner_forms input {
+				border: 1px solid #89bad3;
+				padding: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+			}
+		
+			.login_inner_forms label {
+				font-size: 1.17em; 
+				display: block;
+				width: 100px;
+				float: left;
+				margin-top: 4px;
+				color: #3c3c3c;
+			}
+			
+			.login_button {
+				background: #1680D5;
+				width: 238px;
+				font-size: 14px;
+				font-weight: bold;
+				color: #fff;
+				text-shadow: black 0.1em 0.1em 0.2em;
+				cursor: pointer;
+			}
+			
+				.login_button:hover {
+					background: #3399EA;
+				}
+				
+				.login_button:active {
+					background: #A7D3F5;
+				}
+				
+#dashboard_outer_block {
+	width: 812px;
+	border: 1px solid #f5f5f6;
+	background: #ECEDEE;
+	padding: 10px 3px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 0px 0px 7px #595959;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -203px;
+	margin-left: -406px;
+}
+
+	#dashboard_container {
+		width: 750px;
+		background: #fff;
+		padding: 20px;
+
+	}
+	
+		.dashboard_nav {
+			float: left;
+			width: 230px;
+			background: #fff;
+		}
+		
+		.dashboard_content {
+			width: 520px;
+			float: right;
+		}
+		
+		.dashboard_content input {
+				border: 1px solid #89bad3;
+				padding: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				margin-bottom: 5px;
+			}
+		
+			.dashboard_content label {
+				font-size: 1.17em; 
+				display: block;
+				width: 100px;
+				float: left;
+				margin-top: 4px;
+				color: #3c3c3c;
+				margin-bottom: 5px;
+			}
+		
+			.indicator {
+				margin-right: 215px;
+				float: right;
+                /*
+				background: url('../img/loader.gif');
+				background: url('../img/success.png');
+				background: url('../img/caution.png');
+				background: url('../img/error.png');
+				*/
+				width: 30px;
+				height: 30px;
+
+				margin-bottom: 5px;
+			}
+			
+	.dashboard_inner_block {
+		margin: 0 auto;
+		width: 790px;
+		border: 1px solid #999999;
+		-moz-border-radius: 1px;
+		border-radius: 1px;
+	}
+	
+		.menu,
+	.menu ul {
+		margin:0;
+		padding:0;
+		list-style:none;
+		
+	}
+	.menu {width:200px;}
+	.menu li {
+		display:block;
+		margin:0;
+		padding:0;
+		margin-bottom:1px;
+	}
+	.menu a {
+		display:block;
+		padding:2px 5px;
+		color:#fff;
+		background:#1680D5;
+		text-decoration:none;
+		text-shadow: black 0.1em 0.1em 0.2em;
+		font-weight: bold;
+		border: 1px solid #333;
+	}
+	.menu a:hover,
+	.menu a:focus,
+	.menu a:active {background:#3399EA;}
+	.menu ul li {padding-left:15px;}
+	.menu ul a {background:#eee; color: #333; text-shadow: none; }
+	.hidden {display:none;}
